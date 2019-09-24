@@ -1,0 +1,590 @@
+{
+    "issueUpdates": [
+      {
+        "update": {},
+        
+        "fields": {
+            "summary": "Conduct a discovery session with Asset Owner about the project for TAREK Application",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Initiate Data Onboarding Process"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "As an onboarding focal, after receiving a DO form with a request to ingest a data asset, I need to conduct a discovery session with the requestors (Project team) and the asset team to gather the requirements needed to ingest that source into the CEDP. Ingestion technology, Access & Security, DQ, Metadata requirements are some of the main topics discussed during this meeting."
+            
+          }
+      },
+      {
+        "update": {},
+        
+        "fields": {
+            "summary": "Update Data Onboarding Form for TAREK Application",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Initiate Data Onboarding Process"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "As an onboarding focal, I have to properly update the DO Form as discussed during the discovery session so that we can document this information as well as to then use the Form as a one way approval email agreement between the GCDO and the asset team."
+            
+          }
+      },
+      {
+        "update": {},
+        
+        "fields": {
+            "summary": "Create Application Record in the Information Governance Catalog (IGC)",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Initiate Data Onboarding Process"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "As an Onboarding focal, I have to submit the required information into Will's 'pre-format' spreadsheet for the creation of the IGC Application record"
+            
+          }
+      },
+      {
+        "update": {},
+        
+        "fields": {
+            "summary": "Data Dictionary from TAREK source asset",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Initiate Data Onboarding Process"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "As an onboarding focal, I need the asset's data dictionary upfront to ensure proper metadata generation in IGC"
+            
+          }
+      },
+      
+      
+      {
+        "update": {},
+          "fields": {
+            "summary": "Data Access & Security for TAREK Application",
+            
+            "issuetype": {
+              "id": "10001"
+            },
+            "components": [{"name": "Data Access & Security"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Follow up on additional security and access requirements"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Request Application ID for Inbound data (w3 Application ID) for TAREK Application",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Data Access & Security"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Assign the PRODUCER Application ID for the asset - Use the CEDP ID spreadsheet in BOX, and assign the next available ID to the application"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Create Producer and consumer BlueGroups for TAREK Application(via SAC)",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Data Access & Security"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "As an Access & Security focal, I have to use the SAC tool(sometimes the Bluegroup Application ) to create the default set of Bluegroups"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Add the TAREK to the ldapsych.conf for TAREK Application",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Data Access & Security"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "As an Access & Security focal, I have to update the LDAPSNCH.conf file with the newly defined BG using the GITHUB Merge process"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Identify and Add users to the coedl_TAREK Application_producer and coedl_TAREK Application_consumer TAREK",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Data Access & Security"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "As an Ingestion focal, I have to collect the name of the project team members so that I can add them to the producer and consumer BlueGroups"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Collect asset's current access control requirements for TAREK Application",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Data Access & Security"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Review with project team the additional access control to be implemented"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Classify data types in IGC (PI/SPI/Crown Jewel, etc)",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Data Access & Security"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Review with project team on how to protect, provide and approve access to the sensitive data"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Map data into the access control/management",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Data Access & Security"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Implement the agreed solution such as having additional BGs to managed the limited access to the sensitive data"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Create additional Bluegroups based on the tables/columns/row/etc mappings (via SAC)",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Data Access & Security"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Use the SAC tool ( sometimes the Bluegroup Application ) to create the new bluegroups, and add them to the ldapsync.conf file"
+          }
+      },
+      
+      
+      {
+        "update": {},
+          "fields": {
+            "summary": "DO Ingestion Preparation",
+            
+            "issuetype": {
+              "id": "10001"
+            },
+            "components": [{"name": "DO Ingestion Prep"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "As an Ingestion focal, I need to take lead in the preparation work before the project team can actually start onboarding the asset data into the CEDP"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Create Dropzone for TAREK Application",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "DO Ingestion Prep"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "As an Ingestion focal, I need to work with the project team to specify the name of Dropzone (DB2 and/or HDFS) for the data asset, and assign the task to Zurich for the provision of the namespace"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Create PZ or IZ to support transformation or combination of data",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "DO Ingestion Prep"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Specify the name of IZ or PZ, create Bluegroups on SAC tool, add BGs to ldapsynch.conf file,  assign producer application ID,  assign the task to Zurich for the provision of the PZ or IZ namespace"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Ingestion technology setup to start retrieving TAREK Application data into the Drop Zone",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "DO Ingestion Prep"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "If using DataStage, need to create the DS project, request for DS server access for the project team, Catalog the datasource and the dropzone DB on the engine server, and assign task to SD.  If Kafka, engage Sasa Tomic, and agree on topics name, and assign task to Sasa."
+          }
+      },
+      
+      
+      {
+        "update": {},
+          "fields": {
+            "summary": "Establish Data Ingestion Pipeline for TAREK Application",
+            
+            "issuetype": {
+              "id": "10001"
+            },
+            "components": [{"name": "Establish Data Ingestion Pipeline"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Setup the CEDP workspace for the Project Team to perform Data ingestion work"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Request Application/System ID on source application for TAREK Application",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Establish Data Ingestion Pipeline"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Request for data source access from Source asset owner"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Perform data ingestion of data into CEDP drop zone and landing zone for TAREK Application",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Establish Data Ingestion Pipeline"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "As a Project team focal working to ingest data in the CEDP, I need to do the initial ingestion of the data from source into the CEDP drop zone and land zone"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Setup (productionize/schedule) data ingestion job(s) to be run at the determined frequency",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Establish Data Ingestion Pipeline"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "As a Project team focal working to ingest data in the CEDP, I need to setup the refresh from the source data into the CEDP (daily, weekly, hourly, etc)."
+          }
+      },
+      
+      
+      
+      {
+        "update": {},
+          "fields": {
+            "summary": "Perform Manual Technical DQ process for TAREK Application",
+            
+            "issuetype": {
+              "id": "10001"
+            },
+            "components": [{"name": "Data Quality"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "DQ team will analyze the ingested DATA"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Define Project name. Create this Project in IA and add assets through IMAM",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Data Quality"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Create Project in IA and make sure access is setup for all tables in a schema that onboarded"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Run DataStage sequence job to execute the Technical DQ process",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Data Quality"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "– Execute Technical DQ process, by using DataStage jobs. – Sequence job is collecting needed information about new IA project, run Column Analysis and Data – Checking the results."
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Cognos Technical DQ report",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Data Quality"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Generate card for new project in Cognos. Provide the link of Technical DQ report for created project."
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Schedule DataStage jobs for checking the updates on source DBs",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Data Quality"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Setup DataStage jobs to check the updates in source DB (e.g. count of columns). In case of updates on source DB, we have to re-run DQ process for this project."
+          }
+      },
+      
+      
+      
+      {
+        "update": {},
+          "fields": {
+            "summary": "Perform Business DQ process for TAREK Application",
+            
+            "issuetype": {
+              "id": "10001"
+            },
+            "components": [{"name": "Data Quality"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": ""
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Run BDS Complaince tool on sources that have completed Business metadata",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Data Quality"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "In this task should be implemented the following: 1. We should have terms assigned to columns 2. Need to create the mapping file with Data Quality Rules and Business Terms 3. Run BDS Complaince tool"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Display results in Cognos reports",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Data Quality"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Generate card for new project in Cognos. Provide the link of Business DQ report"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Create Jira tickets to discuss findings with source SME",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Data Quality"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Create jira ticket for discussion with source SME"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Schedule DataStage jobs for checking the updates on source DBs",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Data Quality"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Setup DataStage jobs to check the updates in source DB (e.g. count of columns). In case of updates on source DB, we have to re-run DQ process for this project. Also need to review with source if results change"
+          }
+      },
+      
+      
+      
+      {
+        "update": {},
+          "fields": {
+            "summary": "Load Meta Data for TAREK Application",
+            
+            "issuetype": {
+              "id": "10001"
+            },
+            "components": [{"name": "Load Meta Data"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "MetaData team will ensure the technical and business metadata are in IGC"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Load Meta Data for TAREK Application",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Load Meta Data"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "MetaData team will ensure the technical and business metadata are in IGC"
+          }
+      },
+      
+      
+      
+      {
+        "update": {},
+          "fields": {
+            "summary": "Governance Review for TAREK Application",
+            
+            "issuetype": {
+              "id": "10001"
+            },
+            "components": [{"name": "Governance Review"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Check all data governance components have been implemented"
+          }
+      },
+      {
+        "update": {},
+          "fields": {
+            "summary": "Check all data governance components have been implemented",
+            
+            "issuetype": {
+              "id": "10100"
+            },
+            "components": [{"name": "Governance Review"}],
+            
+            "project": {
+              "id": "15100"
+            },
+            "description": "Check all data governance components have been implemented"
+          }
+      }
+    ]
+  }
